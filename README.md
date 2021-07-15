@@ -1,6 +1,6 @@
 [Turanə](https://t.me/TuraneBot) Azərbaycanca olan qrup idarə botudur.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Cefer1234/TuraneBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Cefer01234/TuraneBot)
 
 ## Credits
 
