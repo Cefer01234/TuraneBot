@@ -75,7 +75,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/Turane-Bot-12-12"
+SAITAMA_IMG = "https://telegra.ph/file/ba7dfa3df5aa91ca30812.jpg"
 
 DONATE_STRING = """Hey Salam Mən Şirinov Cəfər Mən E3 qrup nəzarət botunun sahibiyəm bot’un serverinə sizlər üçün təmənnasız pul xərcləyirəm səndə mənə kömək ola bilərsən🥰 Kart Bilgilərim bunlardır: Kapital Bank Hesabı 4169 7385 8843 4294 Zəfər Şirinov ✅"""
 
