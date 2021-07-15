@@ -62,11 +62,11 @@ Mənimlə birlikdə qruplarınızı idarə edə bilərsiniz.
 
 *Əsas* əmrlər:
  • /help: Şəxsidə sənə əmrlər barədə məlumat verəcəm
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
+ • /help <module name>: PM'də modul haqqında məlumat verər.
+ • /donate: Mənə bəxşiş ver🙋🏻‍♂️!
  • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+   • Pm də ayarları göndərər.
+   • Hər hansı bir problemin varsa @ShirnovCefer sahibimə yaz.
 
 
 {}
@@ -77,10 +77,7 @@ And the following:
 
 SAITAMA_IMG = "https://telegra.ph/Turane-Bot-12-12"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """Hey Salam Mən Şirinov Cəfər Mən E3 qrup nəzarət botunun sahibiyəm bot’un serverinə sizlər üçün təmənnasız pul xərcləyirəm səndə mənə kömək ola bilərsən🥰 Kart Bilgilərim bunlardır: Kapital Bank Hesabı 4169 7385 8843 4294 Zəfər Şirinov ✅"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -198,29 +195,29 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Turanəni qrupa əlavə et",
+                            text="☑️ E3’ü qrupa əlavə et",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚑 Dəstək qrupumuz",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="✅Rəsmi qrupumuz",
+                             url=f"https://t.me/efsanevi3luy"),
                          InlineKeyboardButton(
-                             text="🔔 Yeniliklər kanalı",
-                             url="https://t.me/TTBBots")
+                             text="✅E3 Rəsmi kanal",
+                             url="https://t.me/jjeesster")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🧾 Bot haqqında",
-                             url="https://t.me/FaridDadashzade")
+                             text="👨🏻‍💻 Owner",
+                             url="https://t.me/ShirnovCefer")
                          InlineKeyboardButton(
-                             text="🧾 Ətraflı Məlumat",
-                             url="https://t.me/TheBaghirof")
+                             text="Sualını daxil et✅",
+                             url="https://t.me/Shirnovcefer")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🗄 Repo URL",
+                             text="🗄 Botun Kodları",
                              url="https://github.com/AnimeKaizoku/SaitamaRobot")
                      ]]))
     else:
