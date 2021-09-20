@@ -74,7 +74,7 @@ Və aşağıdakılar:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nBütün əmrlər / və ya ! ilə işlədilir.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/ba7dfa3df5aa91ca30812.jpg"
+SAITAMA_IMG = "https://t.me/c/1505575633/27.jpg"
 
 DONATE_STRING = """Hey Salam Mən Şirinov Cəfər Mən E3 qrup nəzarət botunun sahibiyəm bot’un serverinə sizlər üçün təmənnasız pul xərcləyirəm səndə mənə kömək ola bilərsən🥰 Kart Bilgilərim bunlardır: Kapital Bank Hesabı 4169 7385 8843 4294 Zəfər Şirinov ✅"""
 
